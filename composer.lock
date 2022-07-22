@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4968ab05d829d92e418949217539133",
+    "content-hash": "d23acfe9097a9afed3a0298d6b6cb2c3",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -2102,6 +2102,55 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "sabina-talipova/silverstripe-threejs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sabina-talipova/silverstripe-threejs.git",
+                "reference": "5fae1d9d395f62cb501a4ee7dcf2f82972a402cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sabina-talipova/silverstripe-threejs/zipball/5fae1d9d395f62cb501a4ee7dcf2f82972a402cb",
+                "reference": "5fae1d9d395f62cb501a4ee7dcf2f82972a402cb",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "installer-name": "threejs",
+                "expose": [
+                    "client/dist",
+                    "client/lang"
+                ]
+            },
+            "autoload": {
+                "psr-4": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sabina Talipova",
+                    "email": "sabina.talipova@silverstripe.com"
+                }
+            ],
+            "description": "SilverStripe module for creating and working with ThreeJS library",
+            "keywords": [
+                "3d scene",
+                "scene",
+                "silverstripe",
+                "three js"
+            ],
+            "support": {
+                "issues": "https://github.com/sabina-talipova/silverstripe-threejs/issues",
+                "source": "https://github.com/sabina-talipova/silverstripe-threejs/tree/master"
+            },
+            "time": "2022-07-18T08:58:42+00:00"
         },
         {
             "name": "silverstripe/admin",
@@ -4487,7 +4536,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "sabina-talipova/silverstripe-threejs": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

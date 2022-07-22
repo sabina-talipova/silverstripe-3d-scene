@@ -1,6 +1,6 @@
 <?php
 
-namespace ThreeDScene\Models;
+namespace SabinaTalipova\ThreeDScene\Models;
 
 use SilverStripe\Assets\Image;
 use Silverstripe\ORM\DataObject;
@@ -13,7 +13,11 @@ class ThreeDSceneTexture extends DataObject
         'Title' => 'Varchar'
     ];
 
+    private static $has_one = [
+        'Image' => Image::class,
+    ];
+
     private static $has_many = [
-        'Texture' => Image::class,
+        'Material' => ThreeDSceneMaterial::class,
     ];
 }

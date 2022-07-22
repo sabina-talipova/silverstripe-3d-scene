@@ -1,6 +1,6 @@
 <?php
 
-namespace ThreeDScene\Models;
+namespace SabinaTalipova\ThreeDScene\Models;
 
 use Silverstripe\ORM\DataObject;
 
@@ -10,5 +10,10 @@ class ThreeDSceneMaterial extends DataObject
 
     private static $db = [
         'Title' => 'Varchar'
+    ];
+
+    private static $has_one = [
+        'Texture' => ThreeDSceneTexture::class,
+        'Shader' => ThreeDSceneShader::class,
     ];
 }

@@ -23,8 +23,7 @@
     "extra": {
         "installer-name": "3d-scene",
         "expose": [
-            "client/dist",
-            "client/lang"
+            "client/dist"
         ]
     },
     "autoload": {
@@ -33,7 +32,8 @@
 	"require": {
 		"silverstripe/framework": "^4.11",
 		"silverstripe/cms": "^4.11",
-		"silverstripe/admin": "^1.11"
+		"silverstripe/admin": "^1.11",
+		"sabina-talipova/silverstripe-threejs": "dev-master"
 	},
 	"config": {
 		"allow-plugins": {

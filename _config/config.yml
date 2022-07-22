@@ -1,0 +1,7 @@
+---
+Name: silverstripe-3d-scene
+---
+
+SabinaTalipova\ThreeDScene\Admins\ThreeDSceneAdmin:
+  extra_requirements_javascript:
+    - sabina-talipova/silverstripe-threejs:client/dist/bundle.js
